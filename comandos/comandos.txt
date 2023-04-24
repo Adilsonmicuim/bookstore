@@ -1,0 +1,15 @@
+# https://python-poetry.org/docs/
+
+poetry --version
+
+poetry self update
+
+poetry init
+# poetry new bookstore
+pytest
+factory-boy
+
+
+poetry add django
+poetry run django-admin startproject bookstore .
+# poetry run django-admin.py startproject bookstore .
