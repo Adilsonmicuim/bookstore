@@ -1,8 +1,8 @@
 # https://python-poetry.org/docs/
 
 poetry --version
-
 poetry self update
+
 
 poetry init
 # poetry new bookstore
@@ -13,3 +13,9 @@ factory-boy
 poetry add django
 poetry run django-admin startproject bookstore .
 # poetry run django-admin.py startproject bookstore .
+
+
+# startapp projeto
+poetry run python manage.py startapp api
+poetry run python manage.py migrate
+poetry run python manage.py runserver
