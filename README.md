@@ -5,4 +5,4 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/adilsonmicuim/bookstore)
 ![GitHub last commit](https://img.shields.io/github/last-commit/adilsonmicuim/bookstore)
 
-<img src=".github/activity.jpg">
+<img src=".github/startapp.jpg">
