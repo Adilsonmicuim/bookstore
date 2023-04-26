@@ -19,3 +19,7 @@ poetry run django-admin startproject bookstore .
 poetry run python manage.py startapp api
 poetry run python manage.py migrate
 poetry run python manage.py runserver
+
+
+# instalando rest framework
+poetry add django-rest-framework
