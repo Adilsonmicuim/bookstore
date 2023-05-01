@@ -121,11 +121,16 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Pagination
-# https://www.django-rest-framework.org/api-guide/pagination/
 REST_FRAMEWORK = {
+    # PAGINATION
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 5
+    'PAGE_SIZE': 5,
+
+    # AUTHENTICATION
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.BasicAuthentication",
+        "rest_framework.authentication.SessionAuthentication",
+    ]
 }
 
 # A depuração é mostrada apenas se o seu endereço IP estiver listado na configuração INTERNAL_IPS do Django
