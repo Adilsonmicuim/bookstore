@@ -1,5 +1,0 @@
-from test_viewsets.test_product_viewset import TestProductViewSet
-from test_viewsets.test_category_viewset import TestCategoryViewSet
-
-from test_serializers.test_product_serializer import TestProductSerializer
-from test_serializers.test_category_serializer import TestCategorySerializer
