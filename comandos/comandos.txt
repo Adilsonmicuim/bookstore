@@ -32,3 +32,9 @@ poetry run python manage.py show_urls
 
 # test aplication
 poetry run python manage.py test
+
+
+poetry run python manage.py shell_plus
+>>> from product.factories import ProductFactory
+>>> for _ in range(50):
+        ProductFactory()
