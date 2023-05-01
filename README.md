@@ -6,3 +6,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/adilsonmicuim/bookstore)
 
 <img src=".github/startapp.jpg">
+
+--------------------------------------------------------------------
+## Pagination
+#### http://127.0.0.1:8000/bookstore/v1/product/
+<img src=".github/pagination.png">

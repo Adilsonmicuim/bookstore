@@ -124,8 +124,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Pagination
 # https://www.django-rest-framework.org/api-guide/pagination/
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 100
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 5
 }
 
 # A depuração é mostrada apenas se o seu endereço IP estiver listado na configuração INTERNAL_IPS do Django
