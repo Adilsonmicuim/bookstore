@@ -28,3 +28,7 @@ poetry add django-rest-framework
 # instalando extensions
 poetry add django_extensions
 poetry run python manage.py show_urls
+
+
+# test aplication
+poetry run python manage.py test
