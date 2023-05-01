@@ -42,3 +42,18 @@ poetry run python manage.py shell_plus
 
 # install debug toolbar
 poetry add django-debug-toolbar
+
+
+# criando usuário
+poetry run python manage.py createsuperuser --username adilsonmicuim --email adilsonmicuim@gmail.com
+
+
+# após inclusão do authtoken
+poetry run python manage.py migrate
+poetry update django-rest-framework # atualizando
+poetry run python manage.py drf_create_token adilsonmicuim # 411b227a4da745deb22603547a2f42fc93867e1a
+poetry run python manage.py runserver
+
+
+# debug
+poetry run python -m pdb manage.py runserver

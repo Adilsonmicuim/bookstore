@@ -11,3 +11,11 @@
 ## Pagination
 #### http://127.0.0.1:8000/bookstore/v1/product/
 <img src=".github/pagination.png">
+
+--------------------------------------------------------------------
+## Postman
+<img src=".github/conectando_postman.png">
+
+--------------------------------------------------------------------
+## Token
+<img src=".github/authtoken.png">

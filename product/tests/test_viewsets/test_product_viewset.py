@@ -46,7 +46,7 @@ class TestProductViewSet(APITestCase):
         category = CategoryFactory()
         data = json.dumps(
             {"title": "notebook", "price": 800.00,
-             "categories_id": [category.id]}
+                "categories_id": [category.id]}
         )
 
         response = self.client.post(
