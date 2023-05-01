@@ -42,3 +42,7 @@ poetry run python manage.py shell_plus
 
 # install debug toolbar
 poetry add django-debug-toolbar
+
+
+# criando usuário
+poetry run python manage.py createsuperuser --username adilsonmicuim --email adilsonmicuim@gmail.com
